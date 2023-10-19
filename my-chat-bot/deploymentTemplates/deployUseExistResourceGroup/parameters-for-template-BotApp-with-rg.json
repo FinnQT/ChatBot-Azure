@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appServiceName": {
+      "value": "Bot-Azure"
+    },
+    "existingAppServicePlanName": {
+      "value": "ASP-myVMgroup-8398"
+    },
+    "existingAppServicePlanLocation": {
+      "value": "Korea Central "
+    },
+    "newAppServicePlanName": {
+      "value": ""
+    },
+    "newAppServicePlanLocation": {
+      "value": ""
+    },
+    "newAppServicePlanSku": {
+      "value": {
+        "name": "S1",
+        "tier": "Free",
+        "size": "S1",
+        "family": "S",
+        "capacity": 1
+      }
+    },
+    "appType": {
+      "value": "MultiTenant"
+    },
+    "appId": {
+      "value": "1442f5be-79ea-4543-9663-7cb86182d5f5"
+    },
+    "appSecret": {
+      "value": "c~q8Q~h9tk2DSRLiDCgislsYu5o9PJj2Ge-Z0bOT"
+    },
+    "UMSIName": {
+      "value": ""
+    },
+    "UMSIResourceGroupName": {
+      "value": ""
+    },
+    "tenantId": {
+      "value": ""
+    }
+  }
+}

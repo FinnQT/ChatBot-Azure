@@ -1,0 +1,8 @@
+{
+  "appService.zipIgnorePattern": [
+    "node_modules{,/**}",
+    ".vscode{,/**}"
+  ],
+  "appService.defaultWebAppToDeploy": "/subscriptions/9183369f-4d74-4a13-804c-0882ce1d3954/resourceGroups/myVM_group/providers/Microsoft.Web/sites/Bot-Azure",
+  "appService.deploySubpath": "."
+}
